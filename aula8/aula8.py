@@ -19,4 +19,4 @@ number_1 = int(input("Digite um número: "))
 number_2 = input("Digite outro número: ")
 number_2 = int(number_2)
 
-print(number_1+number_2)
+print("A soma é:", number_1+number_2)
