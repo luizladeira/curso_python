@@ -9,7 +9,8 @@ Exibir um texto com todos os valores na tela usando F-Strings
 
 """
 import datetime
-
+jjj
+   
 nome = 'Luiz Ladeira'
 altura = 1.63
 peso = 62.200
