@@ -3,6 +3,7 @@
     isdigit
     isdecimal
 
+    Documentação: https://docs.python.org/3/library/stdtypes.html
 """
 num1 = input("Digite um número: ")
 num2 = input("Digite um número: ")
