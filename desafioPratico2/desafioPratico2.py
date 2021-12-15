@@ -26,7 +26,7 @@ Ex.: Bom dia das 0h as 11h am
      Boa Noite das 16 as 23h pm
 """
 
-data_user = int(input("Digite a hora agora? "))
+data_user = int(input("Digite a hora agora (0-23): "))
 data_now = datetime.datetime.now()
 horario_agora = int(data_now.strftime('%H'))
 
