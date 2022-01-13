@@ -43,8 +43,10 @@ while True:
             total = 0
             novo_cpf += str(digito)
 
-    print(novo_cpf)
-    if cpf == novo_cpf:
+    # Evita envio de número de cpf sequencial - EX.: 111111111, 000000000....
+    sequencial = novo_cpf == str(novo_cpf[0]) * len(cpf) # pegando o primeiro digito * 11
+
+    if cpf == novo_cpf and not sequencial:
         print(f'Seu CPF é Válido {cpf}')
     else:
         print(f'Seu CPF é inválido {cpf}')
