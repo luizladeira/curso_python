@@ -1,2 +1,3 @@
 # curso_python
-Curso de Python 3 do Básico Ao Avançado (com projetos reais) - UDEMY
+Curso de Python 3 - Lógica de Programação e comandos básicos
+
